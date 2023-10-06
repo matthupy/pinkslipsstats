@@ -72,15 +72,15 @@ export default {
       title: this.document.title,
       meta: [
         { hid: 'description', name: 'description', content: this.document.description },
-        { hid: 'image', name: 'image', content: this.document.thumbnail ?? 'https://facejampodstats.com/icon.png' },
+        { hid: 'image', name: 'image', content: this.document.thumbnail ?? 'https://yt3.googleusercontent.com/TgJW4acCjk2YdOw_CuRncx_HU8Cbp9Zp7YoMTKQTod8ykhKZ47TiVcr_ZVUWhug5U3iaFwp66g=s900-c-k-c0x00ffffff-no-rj' },
         // Open Graph
         { hid: 'og:title', property: 'og:title', content: this.document.title },
         { hid: 'og:description', property: 'og:description', content: this.document.description },
-        { hid: 'og:image', property: 'og:image', content: this.document.thumbnail ?? 'https://facejampodstats.com/icon.png' },
+        { hid: 'og:image', property: 'og:image', content: this.document.thumbnail ?? 'https://yt3.googleusercontent.com/TgJW4acCjk2YdOw_CuRncx_HU8Cbp9Zp7YoMTKQTod8ykhKZ47TiVcr_ZVUWhug5U3iaFwp66g=s900-c-k-c0x00ffffff-no-rj' },
         // Twitter Card
         { hid: 'twitter:title', name: 'twitter:title', content: this.document.title },
         { hid: 'twitter:description', name: 'twitter:description', content: this.document.description },
-        { hid: 'twitter:image', name: 'twitter:image', content: this.document.thumbnail ?? 'https://facejampodstats.com/icon.png' },
+        { hid: 'twitter:image', name: 'twitter:image', content: this.document.thumbnail ?? 'https://yt3.googleusercontent.com/TgJW4acCjk2YdOw_CuRncx_HU8Cbp9Zp7YoMTKQTod8ykhKZ47TiVcr_ZVUWhug5U3iaFwp66g=s900-c-k-c0x00ffffff-no-rj' },
       ]
     }
   },

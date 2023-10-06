@@ -1,27 +1,27 @@
 {
-    "name": "facejampodstats",
-    "version": "1.0.0",
-    "description": "Face Jam Podcast Stats Website",
-    "private": true,
-    "repository": "git@github.com:tcampbPPU/facejampodstats.git",
-    "author": "Tanner Campbell",
-    "contributors": [
-        {
-            "name": "Tanner Campbell",
-            "email": "tcamp022@gmail.com"
-        }
-    ],
-    "license": "MIT",
-    "scripts": {
-        "dev": "nuxt",
-        "build": "nuxt build",
-        "start": "nuxt start",
-        "generate": "nuxt generate"
-    },
-    "dependencies": {
-        "@nuxt/content-theme-docs": "^0.8.2",
-        "@nuxtjs/robots": "^2.5.0",
-        "@nuxtjs/sitemap": "^2.4.0",
-        "nuxt": "^2.15.8"
+  "name": "pinkslipsstats",
+  "version": "1.0.0",
+  "description": "C4 Pink Slips Stats Website",
+  "private": true,
+  "repository": "git@github.com:matthupy/pinkslipsstats.git",
+  "author": "Matt Hupy",
+  "contributors": [
+    {
+      "name": "Matt Hupy",
+      "email": "matthupy@gmail.com"
     }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.8.2",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "nuxt": "^2.15.8"
+  }
 }

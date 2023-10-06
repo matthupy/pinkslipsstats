@@ -1,51 +1,55 @@
-import theme from './theme-docs'
+import theme from "./theme-docs";
 
-const siteUrl = 'https://facejampodstats.com'
+const siteUrl = "https://pinkslipsstats.com";
 
 const sitemapRoutes = async () => {
-  const routes = ['/', 'about']
+  const routes = ["/", "about"];
 
-  const { $content } = require('@nuxt/content')
-  const pages = await $content('en', { deep: true })
-    .sortBy('position', 'asc')
-    .only(['slug'])
+  const { $content } = require("@nuxt/content");
+  const pages = await $content("en", { deep: true })
+    .sortBy("position", "asc")
+    .only(["slug"])
     .skip(2)
-    .fetch()
+    .fetch();
 
-  for (const page of pages) routes.push(`/episodes/${page.slug}`)
+  for (const page of pages) routes.push(`/episodes/${page.slug}`);
 
-  return routes
-}
+  return routes;
+};
 
 export default theme({
   docs: {
-    primaryColor: '#de7d16',
+    primaryColor: "#046A38",
   },
   head: {
-    title: 'Face Jam Pod Stats',
+    title: "Pink Slips Stats",
     htmlAttrs: {
-      lang: 'en',
+      lang: "en",
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Face Jam Pod Stats' },
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: "Pink Slips Stats",
+      },
     ],
     link: [
-      { rel: 'canonical', href: siteUrl },
-      { rel: 'alternate', hreflang: 'en', href: siteUrl },
+      { rel: "canonical", href: siteUrl },
+      { rel: "alternate", hreflang: "en", href: siteUrl },
     ],
   },
-  modules: ['@nuxtjs/robots', '@nuxtjs/sitemap'],
+  modules: ["@nuxtjs/robots", "@nuxtjs/sitemap"],
   robots: {
-    UserAgent: '*',
-    Allow: '/',
-    Sitemap: siteUrl + '/sitemap.xml',
+    UserAgent: "*",
+    Allow: "/",
+    Sitemap: siteUrl + "/sitemap.xml",
   },
   sitemap: {
     hostname: siteUrl,
     gzip: true,
-    exclude: ['/releases'],
+    exclude: ["/releases"],
     routes: sitemapRoutes,
   },
-})
+});
