@@ -18,6 +18,9 @@ const sitemapRoutes = async () => {
 };
 
 export default theme({
+  build: {
+    transpile: ["defu"],
+  },
   docs: {
     primaryColor: "#046A38",
   },
