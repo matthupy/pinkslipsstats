@@ -1,48 +1,56 @@
 ---
-title:
-description:
-position:
-category: 'episodes'
-thumbnail: https://img.youtube.com/vi/YT_SITE/0.jpg
+title: Season 00 Episode 00
+description: <!-- Episode Title -->
+position: 3
+category: "episodes"
+thumbnail: <!-- Thumbnail -->
 ---
 
-<!-- Description -->
+<!-- Episode Title -->
 
-### Episode Date
+## Episode Date
 
 <!-- Episode Date -->
 
-### Jordan's Score
+## Series Updates
 
-<!-- Jordan's Score -->
+<!-- Any updates made to the series from this episode -->
 
-### Michael's Score
+## Game 1 - <!-- Team 1 @ Team 2-->
 
-<!-- Michael's Score -->
+### Game Results
 
-### Average
+| Team | 1   | 2   | 3   | 4   | OT  | Final |
+| ---- | --- | --- | --- | --- | --- | ----- |
+|      | 0   | 0   | 0   | 0   | 0   | 0     |
+|      | 0   | 0   | 0   | 0   | 0   | 0     |
 
-<!-- Average Score -->
+### Scoring
 
-## Listen
+| Criteria             | Player | Stars     |
+| -------------------- | ------ | --------- |
+| Win the Game         | N/A    | 1         |
+| Win the Game by 14+  | N/A    | 1         |
+| 300+ Passing Yards   |        | 0.5       |
+| 3 Pass TDs           |        | 0.5       |
+| 100+ Rushing Yards   |        | 0.5       |
+| 2 Rushing TDs        |        | 0.5       |
+| 100+ Receiving Yards |        | 0.5       |
+| 2 Receiving TDs      |        | 0.5       |
+| 2+ Sacks             |        | 0.5       |
+| 2+ Sacks             |        | 0.5       |
+| 1+ Interception      |        | 0.5       |
+| **Total**            |        | \*\* \*\* |
 
-### Spotify
+### Upgrades
 
-<iframe 
-    src="https://open.spotify.com/embed-podcast/episode/SPOTIFY_SITE" 
-    loading="lazy"
-    style="border: 0; width: 100%; height: 25vh;" allow="encrypted-media"
-></iframe>
+Potential +X Overall Points for Upgrades
 
-#### Ad Start
+| Giving (Overall) | Receiving (Overall) | Overall Differential |
+| ---------------- | ------------------- | -------------------- |
+|                  |                     |                      |
 
-[00:00](https://open.spotify.com/episode/SPOTIFY_SITE?t=START_TIME)
-
-#### Ad End
-
-[99:99](https://open.spotify.com/episode/SPOTIFY_SITE?t=END_TIME)
-
-### Youtube
+## YouTube
 
 <iframe
     src="https://www.youtube.com/embed/YT_SITE" 
@@ -52,35 +60,3 @@ thumbnail: https://img.youtube.com/vi/YT_SITE/0.jpg
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 ></iframe>
-
-#### Ad Start
-
-[00:00](https://youtu.be/YT_SITE?t=START_TIME)
-
-#### Ad End
-
-[99:99](https://youtu.be/YT_SITE?t=END_TIME)
-
-## Snack Attack
-
-<!-- Snack -->
-
-| Jordan | Micheal | Average |
-| :----: | :-----: | :-----: |
-|   0    |    0    |    0    |
-
-## Facts
-
-1.
-
-2.
-
-3.
-
-4.
-
-5.
-
-## Haiku
-
-<!-- Haiku -->
