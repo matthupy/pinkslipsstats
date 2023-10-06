@@ -1,20 +1,20 @@
-# The Unofficial Face Jam Podcast Stats
+# The Unofficial Pinks Slips Stats
 
-_Fan made. No affiliation with Rooster Teeth_
+_Fan made. No affiliation with C4_
 
 ### About
 
-Fast food creations are coming out too fast to keep track of but luckily Michael Jones and Jordan Cwierz are here to eat and judge every new menu item under the sun. One has high standards. The other has no taste. This is Face Jam.
+Pink Slips is the high-octane storyline driven Madden Franchise pioneered by [C4](https://www.youtube.com/@C4YouTube). 
 
 ## Contribution
 
-Main content is located within https://github.com/tcampbPPU/facejampodstats/tree/main/content/en/episodes. Any changes needed to be made to an episode will be done there, the episode number correlates to the filename: `content/en/episodes/{number}.md`.
+Main content is located within https://github.com/matthupy/pinkslipsstats/tree/main/content/en/episodes. Any changes needed to be made to an episode will be done there, the episode number correlates to the filename: `content/en/episodes/{number}.md`.
 
-I am looking for help getting in some of the facts and snack attack ratings. If you are able to provide info about either for a episode please provide a timestamp so I can easily verify.
+I am looking for help getting in some of the episode results. If you are able to provide info about either for a episode please provide a timestamp so I can easily verify.
 
-You can either submit any help as a PR or a issue with this [form](https://github.com/tcampbPPU/facejampodstats/issues/new?assignees=&labels=episode&template=EPISODE-STAT.yml&title=%5BEpisode+Statistic%5D) 
+You can either submit any help as a PR or a issue with this [form](https://github.com/matthupy/pinkslipsstats/issues/new?assignees=&labels=episode&template=EPISODE-STAT.yml&title=%5BEpisode+Statistic%5D) 
 
-> For Example: Snack Attack Rankings starts at 54:00 on episode 45
+> For Example: Game stats start at 34:00 on Season 2 Episode 45
 
 ### Installing
 
@@ -23,7 +23,7 @@ You can either submit any help as a PR or a issue with this [form](https://githu
 * yarn
 
 ```bash
-git clone git@github.com:tcampbPPU/facejampodstats.git; cd facejampodstats; yarn; yarn dev;
+git clone git@github.com:matthupy/pinksslipsstats.git; cd pinkslipsstats; yarn; yarn dev;
 ```
 
 `main` is the primary branch. When making feature or bugfix branches you should start with checking out main branch and creating your new branch based from it.
